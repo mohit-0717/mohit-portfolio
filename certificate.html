@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates | Mohit Bankhele</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'SF Pro Display', sans-serif;
+            background-color: #e8f5e9; /* Light green background */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header and Navigation */
+        header {
+            background-color: #81c784; /* Slightly darker green */
+            padding: 10px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .navbar .logo {
+            font-size: 1.5em;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: #c8e6c9; /* Light green shade */
+        }
+
+        .hamburger {
+            display: none;
+        }
+
+        /* Page Header */
+        .page-header {
+            background-color: #66bb6a;
+            text-align: center;
+            padding: 50px 20px;
+            color: #fff;
+        }
+
+        .page-header h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        .page-header p {
+            font-size: 1.2em;
+        }
+
+        /* Certificates Section */
+        .certificates-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            padding: 40px 20px;
+        }
+
+        .certificate-item {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .certificate-item:hover {
+            transform: scale(1.05);
+        }
+
+        .certificate-img a {
+            font-size: 3em;
+            color: #4caf50;
+        }
+
+        .certificate-info h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .certificate-info p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .certificate-meta span {
+            display: block;
+            font-size: 1em;
+            color: #757575;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #66bb6a;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-logo {
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        .social-links {
+            margin-top: 10px;
+        }
+
+        .social-links .social-icon {
+            color: #fff;
+            font-size: 1.8em;
+            margin: 0 10px;
+        }
+
+        .social-links .social-icon:hover {
+            color: #c8e6c9; /* Hover effect */
+        }
+
+        .footer-nav {
+            margin-top: 20px;
+        }
+
+        .footer-nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .footer-nav a:hover {
+            color: #c8e6c9; /* Hover effect */
+        }
+
+        .copyright {
+            margin-top: 20px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Mohit's Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="certificate.html" class="active">Certificates</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>My Certificates</h1>
+            <p>Professional certifications and courses completed</p>
+        </section>
+
+        <section class="certificates-grid">
+            <div class="certificate-item">
+                <div class="certificate-img">
+                    <a href="/img/html.pdf" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-html5"></i>
+                    </a>
+                </div>
+                <div class="certificate-info">
+                    <h3>Capcut editing Certification</h3>
+                    <p>Comprehensive course covering HTML5 fundamentals, semantic elements, forms, multimedia, and best practices for modern web development.</p>
+                    <div class="certificate-meta">
+                        <span>Great Learning</span>
+                        <span>June 2022</span>
+                    </div>
+                </div>
+            </div>
+            <div class="certificate-item">
+                <div class="certificate-img">
+                    <a href="/img/html.pdf" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-html5"></i>
+                    </a>
+                </div>
+                <div class="certificate-info">
+                    <h3>Linux Certification</h3>
+                    <p>Comprehensive course covering HTML5 fundamentals, semantic elements, forms, multimedia, and best practices for modern web development.</p>
+                    <div class="certificate-meta">
+                        <span>Great Learning</span>
+                        <span>June 2022</span>
+                    </div>
+                </div>
+            </div>
+            <div class="certificate-item">
+                <div class="certificate-img">
+                    <a href="/img/html.pdf" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-html5"></i>
+                    </a>
+                </div>
+                <div class="certificate-info">
+                    <h3>Python Certification</h3>
+                    <p>Comprehensive course covering HTML5 fundamentals, semantic elements, forms, multimedia, and best practices for modern web development.</p>
+                    <div class="certificate-meta">
+                        <span>Great Learning</span>
+                        <span>June 2022</span>
+                    </div>
+                </div>
+            </div>
+            <div class="certificate-item">
+                <div class="certificate-img">
+                    <a href="/img/html.pdf" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-html5"></i>
+                    </a>
+                </div>
+                <div class="certificate-info">
+                    <h3>Python Certification</h3>
+                    <p>Comprehensive course covering HTML5 fundamentals, semantic elements, forms, multimedia, and best practices for modern web development.</p>
+                    <div class="certificate-meta">
+                        <span>Great Learning</span>
+                        <span>June 2022</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other certificate items here, similar to the above -->
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">MB</div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tejasmahamuni/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-nav">
+                <a href="../index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p class="copyright">&copy; 2025 Mohit Bankhele. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
